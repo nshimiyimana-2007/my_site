@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Awesome Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2 class="logo">MySite</h2>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<header id="home">
+    <h1>Welcome to My Website</h1>
+    <p>Website nziza, ndazibakorera, kandi zikuzwa n’abantu 🚀</p>
+    <button onclick="scrollToContact()">Contact Me</button>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+       I am a technology enthusiast and a skilled technician. I create modern, clean, and user-friendly websites that are fast, responsive, and reliable. I focus on delivering high-quality digital solutions that meet user needs and enhance online presence.
+    
+
+    </p>
+
+</section>
+
+<section id="services">
+    <h2>My Services</h2>
+    <div class="cards">
+        <div class="card">🌐 Web Design</div>
+        <div class="card">💻 Web Development</div>
+        <div class="card">📱 Responsive Design</div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>My Contact</h2>
+
+    <div class="contact-info">
+
+        <p>📧 Email: <strong>nshimiyimanaarsene4@gmail.com</strong></p>
+        <p>📍 Location: <strong>Rwanda</strong></p>
+    </div>
+<b>COMMUNICATE WITH ME</b>
+    <form onsubmit="sendMessage(event)">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 My Awesome Website</p>
+    <p>Developed by <strong>Arsene Developer</strong> 💻🔥</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
